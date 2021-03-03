@@ -1,0 +1,268 @@
+html {
+    max-width: 1400px;
+    margin: auto;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#page-section {
+    width: 95%;
+    margin: auto;
+}
+
+#coyotehood-logo {
+    display: block;
+    width: 98%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin: 2rem 1rem 1.5rem 1rem;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+p, 
+#privacy-page li,
+.summary li {
+    font-size: 20px;
+    line-height: 33px;
+    margin: 1rem 4rem;
+    width: 75%;
+    list-style: square;
+}
+
+a {
+    color: #616161;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #ccc;
+}
+
+/* Menu */
+
+#menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+#menu li {
+    list-style: none;
+    margin: 32px 16px 80px 16px;
+}
+
+#menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    color: #616161;
+}
+
+#menu li a:hover {
+    color: #ccc;
+}
+
+/* Footer */
+
+#sidebar {
+    display: flex;
+    justify-content: center;
+}
+
+#sidebar li {
+    list-style: none;
+    text-align: center;
+    margin: 32px;
+}
+
+#sidebar li a,
+#sidebar li p {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+    color: #616161;
+}
+
+#sidebar li a:hover {
+    color: #ccc;
+}
+
+/* Contact */
+
+form {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+div.wpforms-container-full .wpforms-form input.wpforms-field-medium, 
+div.wpforms-container-full .wpforms-form select.wpforms-field-medium, 
+div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium {
+    max-width: 100% !important;
+}
+
+button[type="submit"] {
+    width: 100% !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    border: none !important;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+    font-weight: 400 !important;
+    }
+
+/* WooCommerce */
+
+.woocommerce ul.products li.product .price,
+span.woocommerce-Price-amount.amount {
+    color: #999999 !important;
+}
+
+.woocommerce #respond input#submit,
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button {
+    font-size: 90% !important;
+    border-radius: 0px !important;
+    color: #808080 !important;
+}
+
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+    margin: 0 7px 2.992em 7px  !important;
+    flex-basis: 32%
+}
+
+.woocommerce .products ul, 
+.woocommerce ul.products {
+    display: inline-flex;
+    flex-wrap:wrap;
+}
+
+article, 
+aside, 
+details, 
+figcaption, 
+figure, 
+footer, 
+header, 
+hgroup, 
+menu, 
+nav, 
+section {
+    clear: both;
+}
+
+.product_meta {
+    display: none;
+}
+
+.woocommerce div.product p.stock {
+    display: none;
+}
+
+.woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt {
+    background-color: #c7c7c7 !important;
+}
+
+.woocommerce #respond input#submit.alt:hover, 
+.woocommerce a.button.alt:hover, 
+.woocommerce button.button.alt:hover, 
+.woocommerce input.button.alt:hover {
+    background-color: #bababa !important;
+}
+
+.woocommerce div.product form.cart {
+    width: 75%;
+}
+
+button.single_add_to_cart_button.button.alt {
+    margin-top: 1rem;
+}
+
+.woocommerce-message {
+    border-top-color: #ccc !important;
+}
+
+.woocommerce-error, .woocommerce-info, .woocommerce-message {
+    border-top: 3px solid #bababa !important;
+}
+
+.woocommerce-info {
+    border-top-color: #696969 !important;
+}
+
+th.product-quantity,
+.product-quantity, 
+.quantity,
+td.actions,
+.woocommerce-privacy-policy-text {
+    display: none !important;
+}
+
+.woocommerce form {
+    width: 100%;
+}
+
+.woocommerce form .form-row label {
+    font-size: 18px;
+}
+
+.woocommerce form .form-row input.input-text, 
+.woocommerce form .form-row textarea {
+    height: 2rem;
+}
+
+.woocommerce form .form-row-last, 
+.woocommerce-page form .form-row-last {
+    float: none;
+}
+
+td.product-thumbnail img {
+    width: 15rem !important;
+}

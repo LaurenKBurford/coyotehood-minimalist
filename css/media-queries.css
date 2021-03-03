@@ -1,0 +1,128 @@
+@media screen and (max-width: 1130px) {
+    .woocommerce ul.products li.product, 
+    .woocommerce-page ul.products li.product {
+        flex-basis: 31.5%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #menu li a {
+        font-size: 20px;
+    }
+    #sidebar li a, 
+    #sidebar li p {
+        font-size: 15px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .summary p,
+    .summary li {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 1rem 2rem;
+        width: 85%;
+    }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #sidebar,
+    #menu ul {
+        justify-content: left;
+    }
+    #sidebar li {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .woocommerce ul.products li.product, 
+    .woocommerce-page ul.products li.product {
+        flex-basis: 31%;
+    }
+    form {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .woocommerce ul.products li.product, 
+    .woocommerce-page ul.products li.product {
+        flex-basis: 47%;
+    }
+    p, 
+    #privacy-page li,
+    .summary li {
+        font-size: 17px;
+        line-height: 24px;
+        margin: 1rem 2rem;
+        width: 85%;
+    }
+    h1 {
+    font-size: 30px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 21px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+    #sidebar li a, #sidebar li p {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    #sidebar,
+    #menu ul {
+        display: block;
+        margin-bottom: 2rem;
+    }    
+    #menu li {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .woocommerce ul.products li.product, 
+    .woocommerce-page ul.products li.product {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #menu li a {
+        font-size: 15px;
+    }
+    #menu li {
+        margin-top: 1rem;
+    }
+    #sidebar li a, 
+    #sidebar li p {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    #sidebar li {
+        margin: 16px;
+    }
+    form {
+        width: 95%;
+    }
+}
